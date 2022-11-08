@@ -9,6 +9,7 @@ function counter() { // function with closure
 
 let add = counter();
 
+console.log(add.prototype);
 add();
 add();
 add();
