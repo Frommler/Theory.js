@@ -1,0 +1,17 @@
+<script>
+  function counter() { // function with closure
+    let a = 0;
+    return function add() {  // these is closure
+      a++;
+      console.log(a);
+    };
+  }
+
+  let add = counter();
+
+  console.dir(add);
+  add();
+  add();
+  add();
+  add();
+</script>
