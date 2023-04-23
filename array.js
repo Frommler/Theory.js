@@ -32,7 +32,7 @@ console.log(cookiesMap);
 let arraySlice = sweets6.slice(0, 5);
 console.log(arraySlice);
 
-let arraySindindex = sweets5.slice(sweets5.indexOf("oreo"), -1);
+let arrayFindindex = sweets5.slice(sweets5.indexOf("oreo"), -1);
 console.log(arraySindindex);
 
 let objectFindindex = sweets6.slice(sweets6.findIndex((item) => item.name == "gum"));
