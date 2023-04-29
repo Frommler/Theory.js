@@ -9,7 +9,7 @@ class Auto {
     this.range = range;
   }
   isRangeMoreLimit (run) {
-    return this.range > run;
+    return this.range < run;
   }
 }
 
