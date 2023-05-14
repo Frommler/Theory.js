@@ -11,7 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "console-log-tree": "^1.2.1",
+    "flexible-tree-printer": "^1.0.2",
     "tree-data-structure": "^0.2.0",
+    "tree-model": "^1.0.7",
     "tree-util": "^1.0.7"
   }
 }
